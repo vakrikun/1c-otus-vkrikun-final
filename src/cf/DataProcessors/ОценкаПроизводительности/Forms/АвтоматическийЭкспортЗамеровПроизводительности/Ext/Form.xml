@@ -58,7 +58,6 @@
 					<ChildItems>
 						<CheckBoxField name="ВыполнятьЗамерыПроизводительностиВыполнятьЗамерыПроизводительности" id="37">
 							<DataPath>КонстантыНабор.ВыполнятьЗамерыПроизводительности</DataPath>
-							<Visible>false</Visible>
 							<TitleLocation>Right</TitleLocation>
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ВыполнятьЗамерыПроизводительностиВыполнятьЗамерыПроизводительностиКонтекстноеМеню" id="38"/>
