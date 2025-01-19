@@ -8,15 +8,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ВариантыОтчетов ГДЕ (ВариантыОтчетов.Пользовательский = ЛОЖЬ
-			ИЛИ ВариантыОтчетов.ТолькоДляАвтора = ЛОЖЬ
-			ИЛИ ВариантыОтчетов.Автор = &amp;АвторизованныйПользователь)
-#КонецЕсли</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -77,13 +68,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Пользователь = &amp;АвторизованныйПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
